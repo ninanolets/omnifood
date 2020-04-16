@@ -17,7 +17,7 @@ html,
 body {
     background-color: #fff;
     color: #444444;
-    font-family: "Lato", "Ariel", sans-serif;
+    font-family: "Lato", "Arial", sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -531,7 +531,7 @@ header {
 }
 
 .plan-box div {
-    padding: 20px;
+    padding: 16px 20px;
     border-bottom: 1px solid #E4E4E4;
 }
 
@@ -547,7 +547,6 @@ header {
 
 .plan-box li {
     list-style: none;
-    padding: 6px 0;
 }
 
 .plan-box .icon-close,
@@ -603,6 +602,24 @@ input[type="checkbox"] {
 
 *:focus {outline: none;}
 /* to get rid of the blue outile when hover a form answerbox */
+
+.form-messages {
+    width: 70%;
+    margin: 0 auto; /* to center the box */
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.success {
+    background-color: rgba(0, 250, 167, 0.8);
+}
+
+.error {
+    background-color: rgba(165, 42, 42, 0.8);
+    color: white;
+}
 
 
 /* -------------------- */
